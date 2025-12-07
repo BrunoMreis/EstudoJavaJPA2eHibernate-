@@ -4,17 +4,17 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Arrays;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 
 public class TestaRelacimentoCardinais {
 
 	public static void main(String[] args) {
 		Cliente cliente = new Cliente("Maiven", "Rua das Belas");
 		
-		Categoria categoria1 = new Categoria("Negócio");
-		Categoria categoria2 = new Categoria("Negócio");
+		Categoria categoria1 = new Categoria("Negï¿½cio");
+		Categoria categoria2 = new Categoria("Negï¿½cio");
 		
 		Conta conta = new Conta(123, 5676, cliente);
 		
